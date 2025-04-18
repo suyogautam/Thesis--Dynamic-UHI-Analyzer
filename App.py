@@ -1,4 +1,5 @@
 import streamlit as st
+import ee
 import geemap
 import geopandas as gpd
 import pandas as pd
@@ -31,12 +32,11 @@ areas and natural/vegetative surfaces over time.
 @st.cache_resource
 def initialize_ee():
     try:
-        # This will use the EARTHENGINE_TOKEN from Streamlit secrets
-        geemap.ee_initialize()
-        return True
+        ee.Initialize()
     except Exception as e:
-        st.error(f"Error initializing Earth Engine: {str(e)}")
-        return False
+        ee.Authenticate()
+        ee.Initialize()
+    return True
 
 # Display a loading message while initializing Earth Engine
 with st.spinner("Initializing Google Earth Engine..."):
