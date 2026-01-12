@@ -1,0 +1,62 @@
+SYSTEM REQUIREMENTS
+-------------------
+• Python 3.9 or newer
+• Git
+• Internet connection
+• Google account with access to Google Earth Engine
+
+
+STEP 1 — Clone the Repository
+-----------------------------
+Open a terminal or command prompt and run:
+
+    git clone https://github.com/<your-username>/uhi-analyzer-outline.git
+    cd uhi-analyzer-outline
+
+
+STEP 2 — Create a Virtual Environment
+-------------------------------------
+Create a Python virtual environment to isolate dependencies:
+
+    python -m venv venv
+
+
+STEP 3 — Activate the Virtual Environment
+-----------------------------------------
+
+Linux / macOS:
+
+    source venv/bin/activate
+
+Windows:
+
+    venv\Scripts\activate
+
+
+STEP 4 — Install Required Dependencies
+--------------------------------------
+Install all required Python libraries:
+
+    pip install -r requirements.txt
+
+This may take a few minutes depending on your system.
+
+
+STEP 5 — Authenticate Google Earth Engine
+-----------------------------------------
+Authenticate your Google account for Earth Engine access:
+
+    earthengine authenticate
+
+A browser window will open.
+Follow the instructions to log in and grant access.
+
+
+STEP 6 — Run the Streamlit Application
+-------------------------------------
+Launch the Streamlit user interface:
+
+    streamlit run app.py
+
+A local web server will start and the app will open automatically in your
+default browser (usually at http://localhost:8501).
