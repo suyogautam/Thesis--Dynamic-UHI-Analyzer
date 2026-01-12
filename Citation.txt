@@ -1,0 +1,24 @@
+CITATION INFORMATION
+====================
+
+Citation for this software and associated research will be made available
+upon acceptance and publication of the corresponding peer-reviewed paper.
+
+This repository currently contains a PUBLIC OUTLINE VERSION of the codebase.
+The full executable implementation and reproducible workflows will be released
+together with a formal citation (DOI / journal reference).
+
+Please do not cite this repository in its current form.
+
+
+CONTACT
+-------
+For citation requests or academic inquiries,
+please contact the author directly.
+
+
+AUTHOR
+------
+Suyog Gautam
+Virginia Tech
+suyoggtm@vt.edu
