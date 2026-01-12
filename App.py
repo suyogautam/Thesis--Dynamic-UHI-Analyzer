@@ -1,8 +1,7 @@
 """
 Urban Heat Island (UHI) Analyzer – Streamlit App (OUTLINE VERSION)
 
- IMPORTANT NOTE FOR REVIEWERS
---------------------------------
+ IMPORTANT NOTE 
 This public repository contains a NON-FUNCTIONAL OUTLINE of the application.
 Core processing logic, analysis pipelines, and final parameterization have been
 intentionally removed.
@@ -98,12 +97,12 @@ def load_aoi_example():
 
 
 # ============================
-# Core Processing (Removed)
+# Core Processing (Outline)
 # ============================
 
 def run_uhi_analysis():
     """
-    MAIN ANALYSIS PIPELINE (REMOVED)
+    MAIN ANALYSIS PIPELINE (Outline)
 
     Full version performs:
     • Landsat 5/8/9 LST processing
@@ -143,3 +142,4 @@ if run:
 
 st.markdown("---")
 render_validation_tab()
+
